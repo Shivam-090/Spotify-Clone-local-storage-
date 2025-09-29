@@ -4,6 +4,8 @@ A simple **Spotify-inspired music player** built using **HTML, CSS, and
 JavaScript**.\
 This project demonstrates front-end web development concepts like DOM
 manipulation, event handling, media playback, and UI design.
+This is a local storage based project create folder and add songs to the folder.
+add the cover and Json file as added in the folders
 
 ------------------------------------------------------------------------
 
@@ -94,10 +96,3 @@ branch.\
 ## 🤝 Contributing
 
 Feel free to fork this repo and suggest improvements via pull requests!
-
-------------------------------------------------------------------------
-
-## 📜 License
-
-This project is licensed under the **MIT License** -- free to use and
-modify.
