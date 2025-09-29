@@ -1,0 +1,163 @@
+
+
+.container_log_sign{
+    width: 50vw;
+    border: 2px solid black;
+    display: flex;
+    margin: 10% 25%;
+    align-items: center;
+    justify-content: space-around;    
+    background-color: rgb(232, 252, 232); 
+    position: absolute;
+    z-index: 10;
+    padding-bottom: 30px;
+    display: none;
+    border-radius: 20px;
+
+    
+}
+
+
+.cross1{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.log1, .sign1{
+    line-height: 50px;
+    
+
+}
+
+.log1{
+    display: none;
+}
+.sign1{
+    display: none;
+}
+
+
+.login, .signup{
+    text-align: center;
+    padding: 20px;
+    color: rgb(132, 212, 132);
+}
+
+.options{
+    display: flex;
+    margin: auto;
+    max-width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.options img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.txt_div{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.text{
+    padding: 10px;
+    color: gray;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+
+}
+
+.fill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.fill input{
+    height: 30px;
+    width: 340px;
+    border-radius: 50px;
+    padding: 4px 10px;
+    background-color:rgb(235, 235, 235);
+    cursor: pointer;
+}
+.fill input:hover{
+    background-color: white;
+}
+
+
+.forget_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.forget{
+    padding: 10px;
+    text-decoration: underline;
+    color: gray;
+}
+.forget:hover{
+    color: black;
+}
+
+.sign_button{
+    padding: 10px 0px;
+}
+
+.log_sign_btn{
+    height: 40px;
+    width: 375px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: rgb(132, 212, 132);
+    cursor: pointer;
+    
+}
+
+.log_button , .sign_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log_sign_btn:hover{
+    background-color: rgb(171, 255, 171);
+}
+
+
+.blur{
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px); 
+    display: none;
+}
+
+
+@media (max-width:750px) {
+   .fill input{
+    width: 160px;
+   }
+    
+   .log_sign_btn{
+   
+    width: 185px;
+   
+    
+}
+    
+}

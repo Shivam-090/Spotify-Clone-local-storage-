@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+</head>
+<link rel="stylesheet" href="/CSS/left style.css">
+<link rel="stylesheet" href="/CSS/right style.css">
+<link rel="stylesheet" href="/CSS/utility.css">
+<link rel="stylesheet" href="/CSS/media.css">
+<link rel="stylesheet" href="/CSS/logSign.css">
+<link rel="icon" type="image/svg+xml" href="Spotify icon.svg">
+
+
+<body>
+    <div class="container flex bg-black">
+
+        <div class="left  ">
+            <div class="home bg-gray margin-1 rounded padding-1">
+
+                <div class="logo">
+                    <img  src="/Assets/svg/spotify.svg" alt="spotify">
+                    <div class="cancel_div">
+
+                        <img class="invert cancel" src="/Assets/svg/cancel circle.svg" alt="">
+                    </div>
+                </div>
+
+                <ul>
+                    <li><img class="invert" src="/Assets/svg/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="/Assets/svg/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-gray rounded margin-1 padding-1">
+                <ul class="libraryUL space-between ">
+                    <li><img class="invert" src="/Assets/svg/library.svg" alt="Library">Your Library</li>
+                    <li><img class="invert" src="/Assets/svg/plus.svg" alt="Plus"></li>
+                </ul>
+                <div class="song_list">
+                    <ul>
+                        
+                       
+                    </ul>
+
+                </div>
+                
+                <div class="footer">
+                    <div><a herf=""><span>Legal</span></a></div>
+                    <div><a herf=""><span>Privacy Center</span></a></div>
+                    <div><a herf=""><span></span>Privacy Policy</a></div>
+                    <div><a herf=""><span>Cookies</span></a></div>
+                    <div><a herf=""><span>About Ads</span></a></div>
+                    <div><a herf=""><span>Accessbility</span></a></div>
+                </div>
+                
+            </div>
+            
+
+        </div>
+
+        <div class="right bg-gray margin-1 rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="menu">
+                        <img class="invert" src="/Assets/svg/menu.svg" alt="">
+                    </div>
+                  <ul class="flex">
+
+                    <li><img class="invert" src="/Assets/svg/left.svg" alt="Left"></li>
+                    <li><img class="invert" src="/Assets/svg/right.svg" alt="Right"></li>
+                  </ul>
+                </div>
+                <div class="button">
+                    <button class="sign">Sign up</button>
+                    <button class="log">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist bg-Lgrey">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    
+                </div>
+
+            </div>
+            <div class="playbar">
+                    <div class="seekbar">
+
+                        <div class="circle"></div>
+                    </div>
+                
+                <div class="playbar_elements">
+                    <div class="song_info">
+                </div>
+                    <div class="song_button">
+                        <img class="invert" id="previous" src="/Assets/svg/previous.svg" alt="">
+                        <img class="invert" id="play" src="/Assets/svg/play circle.svg" alt="">
+                        <img class="invert" id="next" src="/Assets/svg/next.svg" alt="">
+                    </div>
+                    <div class="volume_time">
+                         <div class="controls">
+                            <img class="cRepeat invert" src="/Assets/svg/no repeat.svg" alt="">
+                            <img class="cShuffle invert" src="/Assets/svg/no shuffle.svg" alt="">
+                        </div>
+                        <div class="song_time"></div>
+                        <div class="volumebar">
+                            <img class="volume invert" src="/Assets/svg/Volume.svg" alt="">
+                            <div class="v_range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="container_log_sign">
+            <img class="cross1 " src="/Assets/svg/cancel circle.svg" alt="">
+            
+            <div class="sign1">
+                <div class="signup">
+                    <h1>Create account</h1>
+                </div>
+                <div class="options">
+                    <img src="/Assets/svg/mail.svg" alt="">
+                    <img src="/Assets/svg/google.svg" alt="">
+                    <img src="/Assets/svg/facebook.svg" alt="">
+                    <img src="/Assets/svg/phone.svg" alt="">
+                    
+                </div>
+                <div class="txt_div">
+                    
+                    <span class="text">OR use your email account for registration:</span>
+                </div>
+                <div class="fill">
+                    <input type="text" placeholder="&#128100; Name">
+                    <input type="text" placeholder="&#9993; Email">
+                    <input type="password" placeholder="&#xe897; Password">
+                </div>
+                
+                <div class="sign_button">
+                    <button class="log_sign_btn">Sign up</button>
+                </div>
+                
+                
+            </div>
+            <div class="log1 ">
+                <div class="login">
+                    <h1>Sign in to Spotify</h1>
+                </div>
+                <div class="options">
+                    <img src="/Assets/svg/mail.svg" alt="">
+                    <img src="/Assets/svg/google.svg" alt="">
+                    <img src="/Assets/svg/facebook.svg" alt="">
+                    <img src="/Assets/svg/phone.svg" alt="">
+                    
+                </div>
+                <div class="txt_div">
+                    
+                    <span class="text">Or use your email account:</span>
+                </div>
+                <div class="fill">
+                    <input type="text" placeholder="&#9993; Email">
+                    <input type="password" placeholder="&#xe897; Password">
+                </div>
+                <div class="forget_div" >
+                    <span class="forget">Forgot your password?</span>
+                </div>
+                <div class="log_button">
+                    <button class="log_sign_btn">log in</button>
+                </div>
+            </div>
+        </div>
+        <div class="blur"></div>
+    </div>
+        
+        <script src="/JavaScript/script.js"></script>
+    </body>
+    
+    </html>

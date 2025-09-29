@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+.container{
+    padding: 20px;
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 40px;
+}
+.text{
+    color: #4CAF50;
+    font-size: 40px;
+    margin: 0;
+}
+.eLog{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+.eLog span{
+    color: white;
+    padding: 3px 0px;
+}
+
+.eLog input{
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid grey;
+    padding: 3px;
+    background-color: rgba(23, 23, 23, 0.2);
+    
+}
+
+.phone{
+    color: #4CAF50;
+    padding: 3px 0px;
+}
+.eLog button{
+    margin: 15px 0px ;
+    background-color: #50b853;
+    border: none;
+    border-radius: 30px;
+    height: 40px;
+    font-weight: 900;
+}
